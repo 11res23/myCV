@@ -6,7 +6,7 @@ const Service = () => {
   <div className="container">
     <div className="section-title">
       <h2>Services</h2>
-      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <p>Sebagai penyedia layanan pengembangan UI/UX dan frontend yang berdedikasi, saya menawarkan pendekatan khusus untuk membuat solusi digital yang menarik secara visual dan berpusat pada pengguna. Dengan fokus pada inovasi dan efisiensi, saya berkomitmen untuk memberikan layanan berkualitas tinggi yang meningkatkan pengalaman pengguna secara keseluruhan dan mendorong kesuksesan proyek Anda.</p>
     </div>
     <div className="row">
       <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up">

@@ -7,6 +7,8 @@ import Portfolio from "./component/portfolio"
 import Testimonials from "./component/testimonials"
 import Contact from "./component/contact"
 import Footer from "./component/footer"
+import Resume from "./component/resume"
+import Service from "./component/service"
 function App() {
 
 
@@ -19,7 +21,9 @@ function App() {
         <Facts/>
         <Skill/>
         <Portfolio/>
-        <Testimonials/>
+        <Resume/>
+        
+        
         <Contact/>
       </main>
       <Footer/>

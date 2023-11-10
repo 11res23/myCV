@@ -6,7 +6,7 @@ const Portfolio = () => {
   <div className="container">
     <div className="section-title">
       <h2>Portfolio</h2>
-      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <p>Dalam portofolio saya, Anda akan menemukan pameran dinamis dari keahlian saya dalam desain UI/UX, di mana setiap proyek menceritakan kisah wireframing yang teliti, prototyping inovatif, dan riset berorientasi pengguna. Saat Anda menjelajahi bagian frontend, saksikan integrasi mulus antara HTML, CSS, dan JavaScript, menciptakan antarmuka responsif yang mengutamakan estetika dan fungsionalitas. Proyek-proyek ini tidak hanya mencerminkan keahlian teknis saya tetapi juga menyoroti komitmen saya untuk memberikan pengalaman digital yang memikat, berada di persimpangan antara desain dan kepuasan pengguna.</p>
     </div>
     <div className="row" data-aos="fade-up">
       <div className="col-lg-12 d-flex justify-content-center">
