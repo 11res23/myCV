@@ -30,7 +30,7 @@ const Portfolio = () => {
       </div>
       <div className="col-lg-4 col-md-6 portfolio-item filter-web">
         <div className="portfolio-wrap">
-          <img src="src/assets/img/portfolio/portfolio-2.jpg" className="img-fluid" alt />
+          <img src="src/assets/img/portfolio/ui-ux-2.jpg" className="img-fluid" alt />
           <div className="portfolio-links">
             <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><i className="bx bx-plus" /></a>
             <a href="portfolio-details.html" title="More Details"><i className="bx bx-link" /></a>
@@ -39,7 +39,7 @@ const Portfolio = () => {
       </div>
       <div className="col-lg-4 col-md-6 portfolio-item filter-app">
         <div className="portfolio-wrap">
-          <img src="src/assets/img/portfolio/portfolio-3.jpg" className="img-fluid" alt />
+          <img src="src/assets/img/portfolio/frontend.jpg" className="img-fluid" alt />
           <div className="portfolio-links">
             <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><i className="bx bx-plus" /></a>
             <a href="portfolio-details.html" title="More Details"><i className="bx bx-link" /></a>
