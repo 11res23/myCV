@@ -1,15 +1,25 @@
-// import { Waypoint } from "react-waypoint";
+import { Waypoint } from "react-waypoint";
+import AOS from "aos"
+import { useEffect } from "react";
 
 const Skill = () => {
-  // const handleWaypointEnter = () => {
-  //   const progressBars = document.querySelectorAll(".progress-bar");
-  //   progressBars.forEach((el) => {
-  //     el.style.width = `${el.getAttribute("aria-valuenow")}%`;
-  //   });
-  // };
+  useEffect(() =>{
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,
+      mirror: false,
+    })
+  })
+  const handleWaypointEnter = () => {
+    const progressBars = document.querySelectorAll(".progress-bar");
+    progressBars.forEach((el) => {
+      el.style.width = `${el.getAttribute("aria-valuenow")}%`;
+    });
+  };
   return (
     <div>
-      {/* <Waypoint onEnter={handleWaypointEnter} bottomOffset="80%"> */}
+      <Waypoint onEnter={handleWaypointEnter} bottomOffset="80%">
         {/* ======= Skills Section ======= */}
         <section id="skills" className="skills section-bg">
           <div className="container">
@@ -39,7 +49,7 @@ const Skill = () => {
                     <div
                       className="progress-bar"
                       role="progressbar"
-                      aria-valuenow={100}
+                      aria-valuenow={97}
                       aria-valuemin={0}
                       aria-valuemax={100}
                     />
@@ -78,7 +88,7 @@ const Skill = () => {
           </div>
         </section>
         {/* End Skills Section */}
-      {/* </Waypoint> */}
+      </Waypoint>
     </div>
   );
 };
